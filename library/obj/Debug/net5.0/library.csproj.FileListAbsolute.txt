@@ -1,0 +1,12 @@
+/home/irfan/console/project/library/bin/Debug/net5.0/library.deps.json
+/home/irfan/console/project/library/bin/Debug/net5.0/library.dll
+/home/irfan/console/project/library/bin/Debug/net5.0/library.pdb
+/home/irfan/console/project/library/obj/Debug/net5.0/library.csproj.AssemblyReference.cache
+/home/irfan/console/project/library/obj/Debug/net5.0/library.GeneratedMSBuildEditorConfig.editorconfig
+/home/irfan/console/project/library/obj/Debug/net5.0/library.AssemblyInfoInputs.cache
+/home/irfan/console/project/library/obj/Debug/net5.0/library.AssemblyInfo.cs
+/home/irfan/console/project/library/obj/Debug/net5.0/library.csproj.CoreCompileInputs.cache
+/home/irfan/console/project/library/obj/Debug/net5.0/library.dll
+/home/irfan/console/project/library/obj/Debug/net5.0/refint/library.dll
+/home/irfan/console/project/library/obj/Debug/net5.0/library.pdb
+/home/irfan/console/project/library/obj/Debug/net5.0/ref/library.dll

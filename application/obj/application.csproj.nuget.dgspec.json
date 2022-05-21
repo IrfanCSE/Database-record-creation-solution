@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/irfan/console/project/application/application.csproj": {}
+  },
+  "projects": {
+    "/home/irfan/console/project/application/application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/irfan/console/project/application/application.csproj",
+        "projectName": "application",
+        "projectPath": "/home/irfan/console/project/application/application.csproj",
+        "packagesPath": "/home/irfan/.nuget/packages/",
+        "outputPath": "/home/irfan/console/project/application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/irfan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/irfan/console/project/library/library.csproj": {
+                "projectPath": "/home/irfan/console/project/library/library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/irfan/console/project/library/library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/irfan/console/project/library/library.csproj",
+        "projectName": "library",
+        "projectPath": "/home/irfan/console/project/library/library.csproj",
+        "packagesPath": "/home/irfan/.nuget/packages/",
+        "outputPath": "/home/irfan/console/project/library/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/irfan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
